@@ -1,0 +1,12 @@
+{
+  "name": "hss-server",
+  "version": "1.0.0",
+  "description": "SpaceLabs HSS 4G Core",
+  "license": "ISC",
+  "author": "Tomas Figueiredo",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/hss.js"
+  }
+}

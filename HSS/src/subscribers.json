@@ -1,0 +1,21 @@
+{
+    "268991234567890": {
+        "imsi": "268991234567890",
+        "ki": "00112233445566778899aabbccddeeff",
+        "opc": "0102030405060708090a0b0c0d0e0f10",
+        "amf": "8000",
+        "sqn": "000000000020",
+        "enabled": true,
+        "profile": {
+            "defaultApn": "internet",
+            "apn": [
+                {
+                    "name": "internet",
+                    "qci": 9,
+                    "maxUl": 100000000,
+                    "maxDl": 100000000
+                }
+            ]
+        }
+    }
+}

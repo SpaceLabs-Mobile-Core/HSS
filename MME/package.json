@@ -1,0 +1,12 @@
+{
+  "name": "mme",
+  "version": "1.0.0",
+  "description": "SpaceLabs MME 4G Core",
+  "license": "ISC",
+  "author": "Tomas Figueiredo",
+  "type": "module",
+  "main": "src/mme.js",
+  "scripts": {
+    "start": "node src/mme.js"
+  }
+}
