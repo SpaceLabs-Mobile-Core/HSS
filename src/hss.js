@@ -7,22 +7,22 @@ import {
     createDWA,
     createULA,
     isRequest
-} from '../../Common/Packet.js';
+} from '../Utils/Packet.js';
 
 import {
     decodeAVP
-} from '../../Common/AVP.js';
+} from '../Utils/AVP.js';
 
 import {
     parseDiameterMessage
-} from '../../Common/Diameter.js';
+} from '../Utils/Diameter.js';
 
 import {
     AVP_CODES,
     COMMAND_CODES,
-} from '../../Common/Dictionary.js';
+} from '../Utils/Dictionary.js';
 import { getSubscriber, incrementSQN } from './subscriberDatabase.js';
-import { generateAuthenticationVectorForSubscriber } from '../../Common/milenage.js';
+import { generateAuthenticationVectorForSubscriber } from '../Utils/milenage.js';
 
 const server = net.createServer((socket) => {
     let receiveBuffer = Buffer.alloc(0);
